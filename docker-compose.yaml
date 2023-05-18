@@ -1,0 +1,8 @@
+services:
+  http:
+    image: rsnts/http:1.0-php81
+
+    volumes:
+      - "./www:/www"
+    ports:
+      - "80:80"
